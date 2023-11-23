@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String str = "Это пример строки";
+        String[] parts = str.split(" "); // Разделение строки по пробелу
+
+        // Выводим разделенную строку
+        for (String part : parts) {
+            System.out.println(part);
+        }
     }
 }
